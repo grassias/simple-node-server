@@ -1,11 +1,9 @@
 {
   "name": "simple-node-server",
   "version": "0.0.1",
+  "private": true,
   "description": "A simple nodejs server for the needs of `Web programming` course of ECE, NTUA",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grassias/simple-node-server.git"
@@ -18,5 +16,24 @@
   "bugs": {
     "url": "https://github.com/grassias/simple-node-server/issues"
   },
-  "homepage": "https://github.com/grassias/simple-node-server#readme"
+  "homepage": "https://github.com/grassias/simple-node-server#readme",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
 }
