@@ -1,0 +1,22 @@
+{
+  "name": "simple-node-server",
+  "version": "0.0.1",
+  "description": "A simple nodejs server for the needs of `Web programming` course of ECE, NTUA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grassias/simple-node-server.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Georgios Rassias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grassias/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/grassias/simple-node-server#readme"
+}
